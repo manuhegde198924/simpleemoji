@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("./2.avif");
+    margin: 0;
+    padding: 0;
+    background-image: url('aerial-beautiful-shot-seashore-with-hills-background-sunset.jpg');
+}
+
+.container {
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 40px;
+    max-width: 700px;
+    color: #fff;
+    box-shadow: inset 10px 10px 30px rgba(252,176,69,1),inset -10px -10px 30px  #833ab4;
+    /* Text color on the gradient background */
+}
+
+h1 {
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-shadow:4px 4px 10px black;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input{
+    width:97%;
+}
+input[type="text"]{
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 2rem;
+    font-size: 20px;
+    border:none;
+    box-shadow: inset 10px 10px 30px rgba(252,176,69,0.7),inset -10px -10px 30px  rgba(131,58,180,0.5);
+}
+input:hover{
+    box-shadow:none;
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+}
+
+td,tr{
+    padding:20px;
+    box-shadow: inset 10px 10px 30px rgba(252,176,69,1),inset -10px -10px 30px  rgba(131,58,180,1);
+
+    /* border-top: 1px solid balck;
+    rgba(252,176,69,1)
+    border-bottom: 1px solid black;     */
+}
+.emoji{
+    font-size: 2rem;
+    text-align: center;
+}
+.emoji:hover,.aliases:hover,.description:hover{
+    transform: scale(1.2);
+}
+.aliases,.description{
+    font-size:1.2rem;
+    font-weight: 500;
+}
